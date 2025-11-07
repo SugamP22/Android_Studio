@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Deportes</string>
+    <string-array name="deportes">
+        <item>Fútbol</item>
+        <item>Basket</item>
+        <item>Tenis</item>
+        <item>Vóley</item>
+        <item>Natación</item>
+    </string-array>
+</resources>

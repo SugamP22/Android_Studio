@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Viaje"
+            android:textColor="#673AB7"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transporte"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <RadioGroup
+            android:id="@+id/rgtransporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:id="@+id/etTransporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Personas (Transporte)"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- === HOTELES SECTION === -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hotel"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <RadioGroup
+            android:id="@+id/rghoteles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:id="@+id/etHoteles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Personas (Hotel)"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comida"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <RadioGroup
+            android:id="@+id/rgcomida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:id="@+id/etComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Personas (Comida)"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ocio"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <RadioGroup
+            android:id="@+id/rgocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:id="@+id/etOcio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Personas (Ocio)"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio total: 0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/border"/>
+
+    </LinearLayout>
+</ScrollView>

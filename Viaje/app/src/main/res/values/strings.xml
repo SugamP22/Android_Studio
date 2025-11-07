@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Viaje</string>
+    <string-array name="transporte">
+        <item>Autobus - 100</item>
+        <item>Avión - 800</item>
+        <item>Tren - 150</item>
+        <item>Propio - 50 </item>
+    </string-array>
+    <string-array name="hoteles">
+        <item>Ibis - 500</item>
+        <item>Hilton - 300</item>
+        <item>Málaga Palacio - 300</item>
+
+    </string-array>
+    <string-array name="comida">
+        <item>Completa - 200</item>
+        <item>Media - 100</item>
+        <item>Desayuno - 50</item>
+    </string-array>
+    <string-array name="ocio">
+        <item>Excursion - 20</item>
+        <item>Cine - 15</item>
+        <item>Fiesta - 50</item>
+    </string-array>
+</resources>
